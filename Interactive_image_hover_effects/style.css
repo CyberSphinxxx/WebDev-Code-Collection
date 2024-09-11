@@ -2,9 +2,14 @@ body{
     background-color: rebeccapurple !important ;
 }
 
-#image1, #image2, #image3,#image4 {
+#image1, #image2, #image3,#image4,#image5, #image6{
     display: inline-block;
     vertical-align: top;
+}
+
+#images_container{
+    margin-top: 50px;
+    text-align: center;
 }
 
 
@@ -15,7 +20,7 @@ body{
     color: black;
     font-size: 2em;
     height: 500px !important;
-    width: 200px !important;
+    width: 180px !important;
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
@@ -35,13 +40,13 @@ body{
 }
 
 #image2{
-    background-color: yellow;
+    background-image: url(images/Cypher.jpg);
     background-position: center;
     background-size: cover;
     color: black;
     font-size: 2em;
     height: 500px !important;
-    width: 200px !important;
+    width: 180px !important;
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
@@ -67,7 +72,7 @@ body{
     color: black;
     font-size: 2em;
     height: 500px !important;
-    width: 200px !important;
+    width: 180px !important;
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
@@ -93,7 +98,7 @@ body{
     color: black;
     font-size: 2em;
     height: 500px !important;
-    width: 200px !important;
+    width: 180px !important;
     padding: 10px;
     border-radius: 5px;
     margin: 10px;
@@ -110,4 +115,57 @@ body{
     transition: padding 0.5s ease;
     color: rgb(0, 7, 201);
     filter: grayscale(0%);
+}
+
+#image5{
+    background-image: url(images/Frieren.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-size: 2em;
+    height: 500px !important;
+    width: 180px !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: left;
+    transition: background-color 0.5s ease, padding 0.5s ease, border-radius 0.5s ease, color 0.5s ease;
+    filter: hue-rotate(90deg);
+}
+
+#image5:hover{
+    background-image: url(images/Frieren.jpg);
+    background-color: rgb(127, 211, 0);
+    border-radius: 10px;
+    padding: 50px;
+    transition: padding 0.5s ease;
+    color: rgb(0, 7, 201);
+    filter: hue-rotate(0deg);
+}
+
+#image6{
+    background-image: url(images/anime2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-size: 2em;
+    height: 500px !important;
+    width: 180px !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: left;
+    transition: background-color 0.5s ease, padding 0.5s ease, border-radius 0.5s ease, color 0.5s ease;
+    
+}
+
+#image6:hover{
+    background-image: url(images/anime2.jpg);
+    background-color: rgb(127, 211, 0);
+    border-radius: 10px;
+    padding: 50px;
+    transition: padding 0.5s ease;
+    color: rgb(0, 7, 201);
+    filter: grayscale(0%);
+    filter: drop-shadow(16px 16px 20px red);
 }
