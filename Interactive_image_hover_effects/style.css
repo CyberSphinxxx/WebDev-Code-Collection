@@ -168,5 +168,4 @@ body{
     color: rgb(0, 7, 201);
     filter: grayscale(0%);
     filter: drop-shadow(16px 16px 20px red);
-    transform: scale(1.1);
 }
