@@ -1,0 +1,111 @@
+body{
+    background-color: rebeccapurple !important ;
+}
+
+#image1, #image2, #image3,#image4 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#image1{
+    background-color: yellow;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-size: 2em;
+    height: 500px !important;
+    width: 200px !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: left;
+    transition: background-color 0.5s ease, padding 0.5s ease, border-radius 0.5s ease, color 0.5s ease;
+}
+
+#image1:hover{
+    background-position: center;
+    background-size: cover;
+    background-image: url(images/Jujutsu_Kaisen.jpg);
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 50px;
+    transition: padding 0.5s ease;
+    color: red;
+}
+
+#image2{
+    background-color: yellow;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-size: 2em;
+    height: 500px !important;
+    width: 200px !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: left;
+    transition: background-color 0.5s ease, padding 0.5s ease, border-radius 0.5s ease, color 0.5s ease;
+}
+
+#image2:hover{
+    background-image: url(images/anime_boy1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(127, 211, 0);
+    border-radius: 10px;
+    padding: 50px;
+    transition: padding 0.5s ease;
+    color: rgb(0, 7, 201);
+}
+
+#image3{
+    background-image: url(images/demon_slayer2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-size: 2em;
+    height: 500px !important;
+    width: 200px !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: left;
+    transition: background-color 0.5s ease, padding 0.5s ease, border-radius 0.5s ease, color 0.5s ease;
+}
+
+#image3:hover{
+    background-image: url(images/demon_slayer2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(127, 211, 0);
+    border-radius: 10px;
+    padding: 50px;
+    transition: padding 0.5s ease;
+    color: rgb(0, 7, 201);
+}
+
+#image4{
+    background-image: url(images/naruto.jpg);
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-size: 2em;
+    height: 500px !important;
+    width: 200px !important;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: left;
+    transition: background-color 0.5s ease, padding 0.5s ease, border-radius 0.5s ease, color 0.5s ease;
+}
+
+#image4:hover{
+    background-image: url(images/naruto.jpg);
+    background-color: rgb(127, 211, 0);
+    border-radius: 10px;
+    padding: 50px;
+    transition: padding 0.5s ease;
+    color: rgb(0, 7, 201);
+}
